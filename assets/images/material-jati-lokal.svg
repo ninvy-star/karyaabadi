@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d2ad7c"/><stop offset="0.55" stop-color="#9a744a"/><stop offset="1" stop-color="#5c3d22"/></linearGradient>
+<filter id="w" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.005 0.34" numOctaves="3" seed="24"/><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.09  0 0 0 0 0.04  0 0 0 1.1 -0.35"/></filter>
+</defs>
+<rect width="800" height="600" fill="url(#g)"/>
+<rect width="800" height="600" filter="url(#w)" opacity="0.55"/>
+<rect width="800" height="600" fill="#000" opacity="0.08"/>
+<g font-family="Inter, Arial, sans-serif" text-anchor="middle" fill="#fff">
+<rect x="250" y="262" width="300" height="76" rx="6" fill="#151515" opacity="0.55"/>
+<text x="400" y="296" font-size="26" font-weight="600">Jati Lokal</text>
+<text x="400" y="322" font-size="13" letter-spacing="1.6" opacity="0.85">FOTO PLACEHOLDER</text>
+</g></svg>
